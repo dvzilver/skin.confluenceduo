@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="1121" type="dialog">
+	<defaultcontrol always="true">450</defaultcontrol>
+	<coordinates>
+		<left>-410</left>
+		<top>0</top>
+	</coordinates>
+	<controls>
+					<item id="16">
+						<label>PUBLICIDAD</label>
+						<onload>PlayMedia(&quot;pvr://channels/tv/Todos los canales/pvr.iptvsimple_398332845.pvr&quot;)</onload>   						
+						<icon>-</icon>
+						<thumb>-</thumb>
+					</item> 		
+<control type="group">
+			<depth>DepthSideBlade</depth>
+			<animation effect="slide" start="0,0" end="400,0" time="300" tween="quadratic" easing="out">WindowOpen</animation>
+			<animation effect="slide" start="400,0" end="0,0" time="300" tween="quadratic" easing="out">WindowClose</animation>
+			<control type="image">
+				<left>400</left>
+				<top>0</top>
+				<width>520</width>
+				<height>720</height>
+				<texture border="0,0,0,0" flipx="true">HomeBladeSub.png</texture>
+			</control>
+<control type="button">
+				<description>Close Window button</description>
+				<left>850</left>
+				<top>0</top>
+				<width>64</width>
+				<height>32</height>
+				<label>-</label>
+				<font>-</font>
+				<onclick>PreviousMenu</onclick>
+				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturenofocus>DialogCloseButton.png</texturenofocus>
+				<onleft>450</onleft>
+				<onright>450</onright>
+				<onup>450</onup>
+				<ondown>450</ondown>
+				<visible>system.getbool(input.enablemouse)</visible>
+			</control>
+			<control type="image">
+				<left>810r</left>
+				<top>30</top>
+				<width>400</width>
+				<height>400</height>
+				<aspectratio align="center">keep</aspectratio>
+				<fadetime>IconCrossfadeTime</fadetime>
+				<texture>control.png</texture>
+				<bordertexture border="8">control.png</bordertexture>
+				<bordersize>8</bordersize>
+			</control>
+			<control type="textbox" id="2">
+			   <description>Texto Ayuda</description>
+			   <left>785r</left>
+			   <top>450</top>
+			   <width>350</width>
+			   <height>200</height>
+			   <visible>true</visible>
+			   <colordiffuse>FFFFFFFF</colordiffuse>
+			   <font>font12</font>
+			   <monofont>mono30</monofont>
+			   <textcolor>FFFFFFFF</textcolor>
+			   <pulseonselect></pulseonselect>
+			   <pagecontrol>13</pagecontrol>
+			   <scrolltime>200</scrolltime>
+			   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+			   <label>No olvides consultar las promociones exclusivas para nuestros clientes en [CR] "Duo Channel" [CR] en tu área de TV [CR] Visítanos en [CR] www.duomexico.com.mx [CR] O envía un correo electrónico a [CR] informacion@duomexico.com.mx [CR] Busca nuestros manuales Online de ayuda y consulta nuestras promociones y productos! [CR] Duo... Conecting Lives...</label>
+			   <align>center</align>
+			</control>
+			<control type="textbox" id="3">
+			   <description>Power</description>
+			   <left>910r</left>
+			   <top>55</top>
+			   <width>350</width>
+			   <height>200</height>
+			   <visible>true</visible>
+			   <colordiffuse>FFFFFFFF</colordiffuse>
+			   <font>font10</font>
+			   <monofont>mono30</monofont>
+			   <textcolor>FFFFFFFF</textcolor>
+			   <pulseonselect></pulseonselect>
+			   <pagecontrol>13</pagecontrol>
+			   <scrolltime>200</scrolltime>
+			   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+			   <label>Encendido/Apagado</label>
+			   <align>center</align>
+			</control>
+			<control type="textbox" id="3">
+			   <description>Volumen</description>
+			   <left>660r</left>
+			   <top>105</top>
+			   <width>350</width>
+			   <height>200</height>
+			   <visible>true</visible>
+			   <colordiffuse>2551020</colordiffuse>
+			   <font>font10</font>
+			   <monofont>mono30</monofont>
+			   <textcolor>FFFFFFFF</textcolor>
+			   <pulseonselect></pulseonselect>
+			   <pagecontrol>13</pagecontrol>
+			   <scrolltime>200</scrolltime>
+			   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+			   <label>Volumen +/Volumen -</label>
+			   <align>center</align>
+			</control>
+			<control type="textbox" id="3">
+			   <description>Navegacion</description>
+			   <left>660r</left>
+			   <top>180</top>
+			   <width>350</width>
+			   <height>200</height>
+			   <visible>true</visible>
+			   <colordiffuse>FFFFFFFF</colordiffuse>
+			   <font>font10</font>
+			   <monofont>mono30</monofont>
+			   <textcolor>FFFFFFFF</textcolor>
+			   <pulseonselect></pulseonselect>
+			   <pagecontrol>13</pagecontrol>
+			   <scrolltime>200</scrolltime>
+			   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+			   <label>Teclas de navegación [CR] (Izq/Der/Arriba/Abajo)</label>
+			   <align>center</align>
+			</control>
+			<control type="textbox" id="3">
+			   <description>Atras</description>
+			   <left>660r</left>
+			   <top>138</top>
+			   <width>300</width>
+			   <height>200</height>
+			   <visible>true</visible>
+			   <colordiffuse>FFFFFFFF</colordiffuse>
+			   <font>font10</font>
+			   <monofont>mono30</monofont>
+			   <textcolor>FFFFFFFF</textcolor>
+			   <pulseonselect></pulseonselect>
+			   <pagecontrol>13</pagecontrol>
+			   <scrolltime>200</scrolltime>
+			   <autoscroll delay="3000" time="1000" repeat="10000">!Control.HasFocus(13)</autoscroll>
+			   <label>Teclas "Atras"</label>
+			   <align>center</align>
+			</control>
+			<control type="list" id="450">
+				<left>390r</left>
+				<top>250</top>
+				<width>450</width>
+				<height>380</height>
+				<onup>450</onup>
+				<onleft>Dialog.Close(Favourites)</onleft>
+				<onright>450</onright>
+				<ondown>450</ondown>
+				<pagecontrol>-</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout height="40">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>370</width>
+						<height>40</height>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<top>0</top>
+						<width>350</width>
+						<height>40</height>
+						<font>font12_title</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<selectedcolor>selected</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</itemlayout>
+				<focusedlayout height="40">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>370</width>
+						<height>40</height>
+						<visible>!Control.HasFocus(450)</visible>
+						<texture border="3">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>370</width>
+						<height>40</height>
+						<visible>Control.HasFocus(450)</visible>
+						<texture border="3">button-focus.png</texture>
+					</control>
+					<control type="label">
+						<left>10</left>
+						<top>0</top>
+						<width>350</width>
+						<height>40</height>
+						<font>font12_title</font>
+						<align>left</align>
+						<aligny>center</aligny>
+						<selectedcolor>selected</selectedcolor>
+						<info>ListItem.Label</info>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="label">
+				<description>Page label</description>
+				<right>30</right>
+				<top>670</top>
+				<width>350</width>
+				<height>30</height>
+				<align>right</align>
+				<aligny>center</aligny>
+				<font>font12</font>
+				<textcolor>grey</textcolor>
+				<label>([COLOR=blue]$INFO[Container(450).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(450).CurrentPage]/$INFO[Container(450).NumPages][/COLOR])</label>
+			</control>
+		</control>
+	</controls>
+</window>

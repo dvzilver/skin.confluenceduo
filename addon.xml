@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.confluenceduo" version="1.0.0" name="Confluence Duo" provider-name="Duo Channel">
+<addon id="skin.confluenceduo" version="0.0.2" name="Confluence Duo" provider-name="Duo Channel">
 	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
 	</extension>
@@ -8,16 +8,15 @@
 		<summary lang="es_AR">Skin para Duo Channel basado en Confluence 4.6.3 Jezz_X, Team Kodi</summary>
 		<summary lang="es_ES">Skin para Duo Channel basado en Confluence 4.6.3 Jezz_X, Team Kodi)</summary>
 		<summary lang="es_MX">Skin para Duo Channel basado en Confluence 4.6.3 Jezz_X, Team Kodi</summary>
-		<description lang="en_US">Confluence is the default skin for Kodi 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
-		<description lang="es_AR">Confluence es el skin por defecto de Kodi 14.0 y posteriores. Es una combinación de conceptos de muchos skins populares, e intenta abarcar e integrar lo mejor de ellos en un skin que sea sencillo de entender y utilizar para los nuevos usuarios de Kodi.</description>
-		<description lang="es_ES">Confluence es la skin por defecto de Kodi 9.11 y posteriores. Es una combinación de conceptos de muchas skins populares, e intenta abarcar e integrar lo mejor de ellas en una skin que sea sencilla de entender y utilizar para los nuevos usuarios de Kodi.</description>
-		<description lang="es_MX">Confluence es el skin por defecto para Kodi 9.11 en adelante. Es una combinación de conceptos de varias skins populares, e intenta adoptar e integrar sus buenas ideas en un skin que debería ser fá de entender y usar para quienes usen Kodi por primera vez.</description>
+		<description lang="en_US">Duo Skin es el skin para Duo Channel basado en Confluence 4.6.3 hecho por Jezz_X, Team Kodi</description>
+		<description lang="es_AR">Duo Skin es el skin para Duo Channel basado en Confluence 4.6.3 hecho por Jezz_X, Team Kodi.</description>
+		<description lang="es_ES">Duo Skin es el skin para Duo Channel basado en Confluence 4.6.3 hecho por Jezz_X, Team Kodi.</description>
+		<description lang="es_MX">Duo Skin es el skin para Duo Channel basado en Confluence 4.6.3 hecho por Jezz_X, Team Kodi</description>
 		<platform>all</platform>
 		<license>GNU General Public License version 2</license>
-		<forum>http://forum.kodi.tv/forumdisplay.php?fid=125</forum>
 		<website/>
 		<email/>
-		<source>https:/github.com/dvzilver/skin.confluenceduo</source>
+		<source>https://github.com/dvzilver/skin.confluenceduo</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -31,6 +30,6 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>Updated language files</news>
+		<news>Primera versión de prueba</news>
 	</extension>
 </addon>
