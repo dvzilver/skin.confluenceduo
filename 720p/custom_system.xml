@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="1122" type="dialog">
+	<defaultcontrol always="true">1</defaultcontrol>
+	<coordinates>
+		<left>-750</left>
+		<top>630</top>
+	</coordinates>
+	<controls>
+		<control type="group">
+			<depth>DepthSideBlade</depth>
+			<animation effect="fade" time="1000">WindowOpen</animation>
+			<animation effect="fade" time="1000">WindowClose</animation>
+		
+			<control type="button" id="5">
+				<description>Close Window button</description>
+				<left>130r</left>
+				<top>0</top>
+				<width>64</width>
+				<height>32</height>
+				<label>-</label>
+				<font>-</font>
+				<onclick>PreviousMenu</onclick>
+				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturenofocus>DialogCloseButton.png</texturenofocus>
+				<onleft>450</onleft>
+				<onright>450</onright>
+				<onup>450</onup>
+				<ondown>1</ondown>
+				<visible>system.getbool(input.enablemouse)</visible>
+			</control>
+
+<control type="button" id="1">
+				<description>Settings</description>
+				<left>70r</left>
+				<top>22</top>
+				<width>70</width>
+				<height>60</height>
+				<label>31959</label>
+				<font>-</font>
+				<onclick>Dialog.Close(1122)</onclick>
+                <onclick>ActivateWindow(Settings)</onclick>
+				<onleft>4</onleft>
+				<onright>2</onright>
+				<onup>5</onup>
+				<ondown>2</ondown>
+			</control>
+			<control type="image">
+				<description>Icono Configuracion</description>
+				<left>65r</left>
+				<top>22</top>
+				<width>60</width>
+				<height>60</height>
+				<aspectratio>keep</aspectratio>
+				<texture>configuracion.png</texture>
+			</control>
+<control type="button" id="2">
+				<description>SystemInfo</description>
+				<left>-25r</left>
+				<top>22</top>
+				<width>70</width>
+				<height>60</height>
+				<label>31959</label>
+				<font>-</font>
+				<onclick>Dialog.Close(1122)</onclick>
+                <onclick>ActivateWindow(systeminfo)</onclick>
+				<onleft>1</onleft>
+				<onright>3</onright>
+				<onup>1</onup>
+				<ondown>3</ondown>
+			</control>
+			<control type="image">
+				<description>Icono Info</description>
+				<left>-30r</left>
+				<top>21</top>
+				<width>60</width>
+				<height>60</height>
+				<aspectratio>keep</aspectratio>
+				<texture>defaulticoninfo.png</texture>
+			</control>
+
+<control type="button" id="3">
+				<description>FileManager</description>
+				<left>-120r</left>
+				<top>22</top>
+				<width>70</width>
+				<height>60</height>
+				<label>31959</label>
+				<font>-</font>
+				<onclick>Dialog.Close(1122)</onclick>
+                <onclick>ActivateWindow(filemanager)</onclick>
+				<onleft>2</onleft>
+				<onright>4</onright>
+				<onup>2</onup>
+				<ondown>4</ondown>
+			</control>
+			<control type="image">
+				<description>Folder</description>
+				<left>-120r</left>
+				<top>16</top>
+				<width>70</width>
+				<height>70</height>
+				<aspectratio>keep</aspectratio>
+				<texture>defaultfolder.png</texture>
+			</control>
+<control type="button" id="4">
+				<description>Configuracion Duo</description>
+				<left>-218r</left>
+				<top>22</top>
+				<width>70</width>
+				<height>60</height>
+				<label>31959</label>
+				<font>-</font>
+				<onclick>Dialog.Close(1122)</onclick>
+                <onclick>ActivateWindow(10025,&quot;plugin://plugin.video.xtream-codes/?content_type=video&quot;,return)</onclick>
+				<onleft>3</onleft>
+				<onright>1</onright>
+				<onup>3</onup>
+				<ondown>1</ondown>
+			</control>
+			<control type="image">
+				<description>Xtream-codes Logo</description>
+				<left>-223r</left>
+				<top>23</top>
+				<width>60</width>
+				<height>60</height>
+				<aspectratio>keep</aspectratio>
+				<texture>xtream-codes-logo.png</texture>
+			</control>
+</control>
+	</controls>
+</window>
